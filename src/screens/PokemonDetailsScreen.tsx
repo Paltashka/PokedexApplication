@@ -106,9 +106,9 @@ const PokemonDetailsScreen = ({
       <Text style={tw`mb-2 text-bold text-lg text-black`}>
         Type: {pokemonDetails.types.map(type => type.type.name).join(', ')}
       </Text>
-      <Text style={tw`mb-2 text-bold text-lg text-black`}>Кроки: {steps}</Text>
+      <Text style={tw`mb-2 text-bold text-lg text-black`}>Steps: {steps}</Text>
       <Text style={tw`mb-2 text-bold text-lg text-black`}>
-        Рівень потужності покемона: {powerLevel}
+        Pokemon power level: {powerLevel}
       </Text>
     </View>
   );
